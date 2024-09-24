@@ -53,7 +53,7 @@ const Services = () => {
             <motion.b whileHover={{ color: "orange" }}>For Your</motion.b>{" "}
             Business
           </h1>
-          <button>What We Do?</button>
+          <button>What I Do?</button>
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
@@ -61,12 +61,14 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Front End Development</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Proficient in frontend development using modern technologies such as
+            React JS, Next JS, and JavaScript, with expertise in React Hooks for
+            building dynamic and efficient user interfaces. Skilled in styling
+            frameworks like MUI, Tailwind CSS, and CSS, as well as state
+            management using Redux to deliver responsive, high-performance
+            applications.
           </p>
           <button>Go</button>
         </motion.div>
@@ -74,12 +76,13 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Back End Development</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Experienced in backend development with a focus on Node.js and
+            Express.js, specializing in building scalable server-side
+            applications. Proficient in designing and implementing RESTful APIs
+            to ensure seamless communication between frontend and backend
+            systems.
           </p>
           <button>Go</button>
         </motion.div>
@@ -87,25 +90,14 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Full Stack Development</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
-          </p>
-          <button>Go</button>
-        </motion.div>
-        <motion.div
-          className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
-        >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Experienced in developing dynamic web applications using React JS,
+            JavaScript, Next JS, and React Hooks for the frontend. Skilled in
+            backend technologies like Node JS, Express JS, and RESTful APIs,
+            ensuring seamless communication between frontend and backend.
+            Proficient in using CSS, MUI, Tailwind CSS, and Redux to build
+            responsive, scalable, and high-performance applications.
           </p>
           <button>Go</button>
         </motion.div>
