@@ -19,7 +19,7 @@ const items = [
   },
   {
     id: "3",
-    title: "Food Delivery Website",
+    title: "Food Delivery",
     img: "",
     desc: "Developed a comprehensive full-stack food delivery website utilizing a React frontend and a Node.js/Express backend, with responsive design achieved through Tailwind CSS and daisyUI. Implemented robust security features, including authentication via bcrypt, JWT, and OTP, alongside efficient data management using MongoDB and Mongoose. The project includes functionalities for image uploads via Cloudinary and automated email notifications through Nodemailer for account and order updates. Enhanced user experience is facilitated by React Toastify, providing real-time notifications for improved engagement.",
     link: "https://github.com/anshultiwari95/FoodDeliveryWebsite",
