@@ -35,9 +35,9 @@ const Services = () => {
     >
       <motion.div className="textContainer" variants={variants}>
         <p>
-          I focus on helping your brand grow
+          I’m a Full-Stack Developer
           <br />
-          and move forward
+          From React to Node.js and Beyond
         </p>
         <hr />
       </motion.div>
@@ -45,15 +45,22 @@ const Services = () => {
         <div className="title">
           <img src="/people.webp" alt="" />
           <h1>
-            <motion.b whileHover={{ color: "orange" }}>Unique</motion.b> Ideas
+            <motion.b whileHover={{ color: "orange" }}>
+              Full-Stack Developer
+            </motion.b>{" "}
+            Specializing in
           </h1>
         </div>
         <div className="title">
           <h1>
-            <motion.b whileHover={{ color: "orange" }}>For Your</motion.b>{" "}
-            Business
+            <motion.b whileHover={{ color: "orange" }}>
+              {" "}
+              Scalable, Dynamic Web Applications
+            </motion.b>
           </h1>
-          <button>What I Do?</button>
+          <a href="/AnshulTiwariResume.pdf" download="AnshulTiwariResume.pdf">
+            <button>My Resume</button>
+          </a>
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
