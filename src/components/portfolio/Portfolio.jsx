@@ -43,6 +43,14 @@ const items = [
     link: "https://dice-game-one-indol.vercel.app/",
     demo: "https://github.com/anshultiwari95/DiceGame",
   },
+  {
+    id: "6",
+    title: "Book Store Project",
+    img: "book.png",
+    desc: "Developed a comprehensive MERN stack application for managing book data, allowing users to create, edit, and delete book information such as title, author, and publication year. The application features a user-friendly interface with both list and card views for displaying books on the homepage. The backend utilizes Express and MongoDB for efficient data handling, while the frontend is built with React and Vite, ensuring a responsive and seamless user experience.",
+    link: "https://book-store-project-frontend-ochre.vercel.app/",
+    demo: "https://github.com/anshultiwari95/BookStoreProject-Frontend",
+  },
 ];
 
 const Single = ({ item }) => {
