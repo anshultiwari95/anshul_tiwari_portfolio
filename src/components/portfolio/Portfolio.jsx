@@ -37,6 +37,14 @@ const items = [
   },
   {
     id: "5",
+    title: "Real Estate Website",
+    img: "estate.png",
+    desc: "Developed a real estate website utilizing React and Vite, designed to provide an intuitive user experience. The project features a responsive layout and smooth animations, achieved using Framer Motion and Swiper. Users can easily navigate property listings with enhanced accessibility and functionality provided by React Accessible Accordion and React Countup. This application aims to streamline the property search process while ensuring a visually appealing interface.",
+    link: "https://real-estate-website-frontend-rho.vercel.app/",
+    demo: "https://github.com/anshultiwari95/RealEstateWebsiteFrontend",
+  },
+  {
+    id: "6",
     title: "Dice Game",
     img: "dice.png",
     desc: "Created an interactive Dice Game using React and Vite, where players select a number and click on a dice image. If the selected number matches the rolled dice, players earn points equivalent to the dice value. Incorrect guesses result in a deduction of two points, adding an element of strategy and excitement. The game features a clean and responsive design with styled-components, ensuring an engaging user experience.",
@@ -44,7 +52,7 @@ const items = [
     demo: "https://github.com/anshultiwari95/DiceGame",
   },
   {
-    id: "6",
+    id: "7",
     title: "Book Store Project",
     img: "book.png",
     desc: "Developed a comprehensive MERN stack application for managing book data, allowing users to create, edit, and delete book information such as title, author, and publication year. The application features a user-friendly interface with both list and card views for displaying books on the homepage. The backend utilizes Express and MongoDB for efficient data handling, while the frontend is built with React and Vite, ensuring a responsive and seamless user experience.",
@@ -67,15 +75,16 @@ const Single = ({ item }) => {
       <div className="container">
         <div className="wrapper">
           <div className="imageContainer" ref={ref}>
-            <img src={item.img} alt="" />
+            <a href={item.link} target="_blank" rel="noreferrer">
+              <img src={item.img} alt="" />
+            </a>
           </div>
           <motion.div className="textContainer" style={{ y: y }}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
-            <a href={item.link} target="_blank" rel="noreferrer">
-              <a href={item.demo} target="_blank" rel="noreferrer">
-                <button>See Demo</button>
-              </a>
+
+            <a href={item.demo} target="_blank" rel="noreferrer">
+              <button>See Demo</button>
             </a>
           </motion.div>
         </div>
